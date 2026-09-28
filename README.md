@@ -64,25 +64,6 @@ The main objectives of this project are:
 * Development Approach: Modular programming
 * Interface:Command-line / menu-driven interface
 
-## Project Structure
-
-Patient_Data_Monitoring_System/
-│
-├── main.py
-├── patient.py
-├── appointment.py
-├── vaccination.py
-├── health_check.py
-├── reports.py
-│
-├── patients.txt
-├── appointments.txt
-├── vaccinations.txt
-├── health_checks.txt
-│
-├── README.md
-└── statement.md
-
 ## Modules
 
 ### `main.py`
@@ -130,47 +111,6 @@ Open the project folder in an editor such as VS Code, IDLE, or PyCharm.
 Run:
 python main.py
 The main menu will appear.
-
-##  Main Menu
-
-The application provides the following menu:
-======================================
-   PATIENT HEALTH MONITORING SYSTEM
-======================================
-1. Patient Management
-2. Appointment Management
-3. Vaccination Management
-4. Health Check
-5. Reports
-6. Exit
-
-The user can select the required module by entering the corresponding number.
-
-## Example
-
-A typical vaccination search works as follows:
-Enter Patient ID: P001
-Enter Vaccine Name: Polio
-
-If the vaccine is already recorded, the vaccination details are displayed.
-If it is not found:
-
-Vaccination not found.
-Enter New Vaccination ID: V002
-Enter Due Date: 25-10-2026
-Vaccination added as Due.
-
-## BMI Calculation
-
-The Health Check module calculates BMI using:
-BMI = Weight / (Height in metres × Height in metres)
-The system then displays a basic BMI category.
-Below 18.5       → Underweight
-18.5 – 24.9      → Normal
-25 – 29.9        → Overweight
-30 or above      → Obesity
-
-The BMI feature is included for educational and demonstration purposes.
 
 ## Testing
 
