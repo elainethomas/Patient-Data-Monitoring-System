@@ -96,6 +96,9 @@ The records are stored using the `|` symbol as a separator.
 Example:
 P001|Rahul|25|Male|9876543210|None|Low
 
+## Screenshots
+Screenshots are attached in a folder in the repository.
+
 ##  How to Run the Project
 
 ### Step 1: Install Python
